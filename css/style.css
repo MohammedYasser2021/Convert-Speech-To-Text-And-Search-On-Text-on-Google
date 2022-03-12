@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background-color: #eee;
+}
+
+.container .content {
+  width: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+.container .content h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.container .content .inputbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+}
+
+.container .content .inputbox input {
+  width: calc(100% - 80px);
+  padding: 12px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 7px;
+  outline: none;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+          box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.container .content .inputbox .icon {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  border: 1px solid #777;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
